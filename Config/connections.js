@@ -4,16 +4,16 @@ const mysql = require('mysql');
 require('dotenv').config();
 
 // Use environment variables to connect to database
-const connections = mysql.createConnection({
-    host: 'localhost',
-    port: 3006,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME,
+const connection = mysql.createConnection({
+  host: 'localhost',
+  port: 3306,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
 
-connections.connect((err) => {
-    if (err) throw err;
+connection.connect((err) => {
+  if (err) throw err;
 });
 
 module.exports = connection;
