@@ -22,6 +22,7 @@
   "homepage": "https://github.com/jyoung0613/Employee-Trackr#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
     "inquirer": "^8.2.0",
     "mysql2": "^2.3.0"
   }
