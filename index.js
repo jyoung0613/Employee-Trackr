@@ -118,7 +118,40 @@ const startPrompts = async () => {
 
 // CRUD functions
 // CREATE (Add)
-
+const addEmployee = async() => {
+    const employee = await inquirer
+    .prompt([
+        {
+            name: 'first_name',
+            type: 'input',
+            message: 'Input Employee\'s FIRST NAME.',
+            validate: first_name => {
+                if (first_name) {
+                    return true;
+                } else {
+                    console.log (error + noInfoEntered + `Please enter the Employee\'s FIRST NAME.`);
+                    return false;
+                }
+            },
+        },
+        {
+            name: 'last_name',
+            type: 'input',
+            message: ({ first_name }) => `Input ${first_name}\'s LAST NAME.`,
+            validate: last_name => {
+                if (last_name) {
+                    return true;
+                } else {
+                    ({ first_name }) => console.log (error + noInfoEntered + `Please enter ${first_name}\'s LAST NAME.`);
+                    return false;
+                }
+            },
+        },
+        {
+            
+        }
+    ])
+}
 // READ (View)
 
 
