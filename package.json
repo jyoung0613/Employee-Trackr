@@ -1,0 +1,28 @@
+{
+  "name": "employee-trackr",
+  "version": "1.0.0",
+  "description": "A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyoung0613/Employee-Trackr.git"
+  },
+  "keywords": [
+    "Employee",
+    "Tracker"
+  ],
+  "author": "jyoung0613",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jyoung0613/Employee-Trackr/issues"
+  },
+  "homepage": "https://github.com/jyoung0613/Employee-Trackr#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.0"
+  }
+}
