@@ -22,8 +22,14 @@
   "homepage": "https://github.com/jyoung0613/Employee-Trackr#readme",
   "dependencies": {
     "colors": "^1.4.0",
+    "console.table": "^0.10.0",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "inquirer": "^8.2.0",
-    "mysql2": "^2.3.0"
-  }
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "node": "^16.10.0",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {}
 }
