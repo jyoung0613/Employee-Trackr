@@ -1,11 +1,11 @@
 const inquirer = require('inquirer');
-const questTask = require('./controllers/taskQuestion');
+const questTask= require('./controllers/taskQuestion');
 
 const addEmployee = require('./controllers/addEmployee');
 const addRole = require('./controllers/addRoles');
 const addDept = require('./controllers/addDepartment');
 const updateEmployee = require('./controllers/updateEmployee');
-const viewByMng = require('./controllers/viewByMng')
+const viewByMng = require('./controllers/viewByMng');
 const toDeleteEmployee = require('./controllers/deleteEmployee');
 const toDeleteRole = require('./controllers/deleteRole');
 const toDeleteDept = require('./controllers/deleteDepartment');
@@ -26,14 +26,14 @@ const askTask = () => {
                 dal.viewAll(queries.allEmployees).then((res) => askTask());
             } else if (task === 'view employees by manager') {
                 viewByMng()
-                    .then((answers) => dal.viewAllBy(queries.allEmployeesByMng, 'm.id', answers.managerId))
-                    .then(() => askTask());
-            } else if (task === 'view all roles') {
+                .then((answers) => dal.viewAllBy(queries.allEmployeesByMng, 'm.id', answers.managerId))
+                .then(() => askTask());
+            }else if (task === 'view all roles') {
                 dal.viewAll(queries.allRoles)
-                    .then(() => askTask());
+                .then(() => askTask());
             } else if (task === 'view all departments') {
                 dal.viewAll(queries.allDepts)
-                    .then(() => askTask());
+                .then(() => askTask());
             } else if (task === 'add employee') {
                 addEmployee(askTask);
             } else if (task === 'add role') {
@@ -44,16 +44,16 @@ const askTask = () => {
                 updateEmployee();
             } else if (task === 'delete employee') {
                 toDeleteEmployee()
-                    .then((answers) => dal.deleteFrom(queries.deleteId, 'employees', Number(answers.empToDelete)))
-                    .then(() => askTask());
+                .then((answers) => dal.deleteFrom(queries.deleteId, 'employees', Number(answers.empToDelete)))
+                .then(() => askTask());
             } else if (task === 'delete role') {
                 toDeleteRole()
-                    .then((answers) => dal.deleteFrom(queries.deleteId, 'roles', Number(answers.roleToDelete)))
-                    .then(() => askTask());
+                .then((answers) => dal.deleteFrom(queries.deleteId, 'roles', Number(answers.roleToDelete)))
+                .then(() => askTask());
             } else if (task === 'delete department') {
                 toDeleteDept()
-                    .then((answers) => dal.deleteFrom(queries.deleteId, 'departments', Number(answers.deptToDelete)))
-                    .then(() => askTask());
+                .then((answers) => dal.deleteFrom(queries.deleteId, 'departments', Number(answers.deptToDelete)))
+                .then(() => askTask());
             } else {
                 process.exit();
             }
