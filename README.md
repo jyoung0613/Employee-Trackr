@@ -27,6 +27,7 @@
   * Search for all roles 
   * All departments 
   * Update roles and departments for your employees
+  * ![alt text](https://drive.google.com/file/d/17rA7l7_DrP1mZIDnXf1P8tckvlYCzW0U/view?usp=sharing)
  
   
   ## Screenshots
