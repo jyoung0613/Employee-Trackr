@@ -28,8 +28,6 @@
   * Search for all roles 
   * All departments 
   * Update roles and departments for your employees
-  * Demo: 
- 
  
   
   ## Screenshots
@@ -43,7 +41,7 @@
 
 
   ## Contributing
-  * ![Contributor_Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)![Code_of_conduct](code_of_conduct.md)
+  * ![Contributor_Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)(code_of_conduct.md)
 
 
   ## License
