@@ -27,7 +27,7 @@
   * Search for all roles 
   * All departments 
   * Update roles and departments for your employees
-  * [Demo My Walkthrough Video!](https://watch.screencastify.com/v/2KQRRyieTSuMAB2BzV0X/view)
+ 
   
   ## Screenshots
   * ![EmployeeTrackrDBSUCCESS](./public/assets/Images/Employee_Tracker-sql-db-table-build-success.png)
