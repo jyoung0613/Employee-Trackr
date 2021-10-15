@@ -39,10 +39,8 @@
 
 
   ## Contributing
-  
+  * ![Contributor_Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)![Code_of_conduct](code_of_conduct.md)
 
-  ## Tests
-    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
   ## License
   This project is licensed under the terms of the following license: **MIT**.
