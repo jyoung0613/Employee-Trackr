@@ -27,7 +27,8 @@
   * Search for all roles 
   * All departments 
   * Update roles and departments for your employees
-  * ![alt text](https://drive.google.com/file/d/17rA7l7_DrP1mZIDnXf1P8tckvlYCzW0U/view?usp=sharing)
+  * Demo: 
+ 
  
   
   ## Screenshots
@@ -37,6 +38,7 @@
   * ![EmployeeTackr2](./public/assets/Images/Employee_Trackr.2.png)
   * ![EmployeeTackr3](./public/assets/Images/Employee_Trackr.3.png)
   * ![EmployeeTackr4](./public/assets/Images/Employee_Trackr.4.png)
+  * Click [Here](https://watch.screencastify.com/v/2KQRRyieTSuMAB2BzV0X) to go to my demo video.
 
 
   ## Contributing
