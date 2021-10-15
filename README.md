@@ -18,6 +18,7 @@
   * Then clone the repo for Employee-Trackr 
   * Once you have that, run NPM Install at the root folder of the repo to install all dependencies.  
   * Next type npm app to initiate the program * All that is left is to follow the prompts to answer the questions.
+  * View my Demo video here:https://watch.screencastify.com/v/2KQRRyieTSuMAB2BzV0X
 
   ## Usage
   * This program is for tracking Employee information within a sql database.  
@@ -38,7 +39,7 @@
   * ![EmployeeTackr2](./public/assets/Images/Employee_Trackr.2.png)
   * ![EmployeeTackr3](./public/assets/Images/Employee_Trackr.3.png)
   * ![EmployeeTackr4](./public/assets/Images/Employee_Trackr.4.png)
-  * Click [Here](https://watch.screencastify.com/v/2KQRRyieTSuMAB2BzV0X) to go to my demo video.
+ 
 
 
   ## Contributing
