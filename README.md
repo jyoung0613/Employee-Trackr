@@ -18,6 +18,7 @@
   * Then clone the repo for Employee-Trackr 
   * Once you have that, run NPM Install at the root folder of the repo to install all dependencies.  
   * Next type npm app to initiate the program * All that is left is to follow the prompts to answer the questions.
+  * View my Demo video here: https://drive.google.com/file/d/17rA7l7_DrP1mZIDnXf1P8tckvlYCzW0U/view?usp=sharing
 
   ## Usage
   * This program is for tracking Employee information within a sql database.  
@@ -27,7 +28,7 @@
   * Search for all roles 
   * All departments 
   * Update roles and departments for your employees
-  * [Demo My Walkthrough Video!](https://watch.screencastify.com/v/2KQRRyieTSuMAB2BzV0X/view)
+ 
   
   ## Screenshots
   * ![EmployeeTrackrDBSUCCESS](./public/assets/Images/Employee_Tracker-sql-db-table-build-success.png)
@@ -36,13 +37,12 @@
   * ![EmployeeTackr2](./public/assets/Images/Employee_Trackr.2.png)
   * ![EmployeeTackr3](./public/assets/Images/Employee_Trackr.3.png)
   * ![EmployeeTackr4](./public/assets/Images/Employee_Trackr.4.png)
+ 
 
 
   ## Contributing
-  
+  * ![Contributor_Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
 
-  ## Tests
-    [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
   ## License
   This project is licensed under the terms of the following license: **MIT**.
