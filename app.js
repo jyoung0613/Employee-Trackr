@@ -15,7 +15,7 @@ const queries = require('./db/queries');
 
 
 
-// Ask the user what taks they'd like to complete. Depending on the task, different functions will
+// Ask the user what tasks they would like to complete. Depending on the task, different functions will
 // be called and when task is complete, the askTask function will run again.
 const askTask = () => {
     inquirer
