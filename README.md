@@ -32,8 +32,7 @@
   
   ## Screenshots
   * ![EmployeeTrackrDBSUCCESS](./public/assets/Images/Employee_Tracker-sql-db-table-build-success.png)
-  * ![EmployeeTackr](./public/assets/Images/Employee_Trackr-sql-db-table-build-success.png)
-  * ![EmployeeTackr1](./public/assets/Images/Employee_Trackr.png)
+  * ![EmployeeTackr](./public/assets/Images/Employee_Trackr.png)
   * ![EmployeeTackr2](./public/assets/Images/Employee_Trackr.2.png)
   * ![EmployeeTackr3](./public/assets/Images/Employee_Trackr.3.png)
   * ![EmployeeTackr4](./public/assets/Images/Employee_Trackr.4.png)
